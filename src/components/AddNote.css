@@ -1,0 +1,20 @@
+ 
+  .tooltiptext {
+    font-size: 14px;
+    visibility: hidden;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    opacity: .6;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    transform: translate(-10px, 30px);
+  }
+  
+  .tool:hover .tooltiptext {
+    visibility: visible;
+  }
