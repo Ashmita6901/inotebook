@@ -25,7 +25,7 @@ function App() {
     
     <>
       <NoteState>
-        <Router basename="/iNotebook">
+        <Router basename="/inotebook">
           <NavBar />
           <Alert alert={alert}/>
           <div className="container" style={{display: 'block'}}>
